@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+}
+header{
+    padding: 60px;
+}
+header h1{ 
+    font-weight: bold;
+font-size: 20px;
+color: #000;
+margin-bottom: 25px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    width: 564px;
+}
+nav li{
+   font-weight: bold;
+   font-size: 20px;
+}
+nav a{
+    font-size: 20px;
+    color: black;
+    padding: 5px 10px;
+}
+.ordernow{
+    width: 180px;
+    height: 60px;
+    background-color: #FDC72D;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ordernow b{
+   color: #000;
+    font-size: 20px;
+}
+/*----------------main dawkeba--------------*/
+.mama{
+    width: 1320px;
+    height: 724px;
+    margin-left: 60px;
+    display: flex;
+}
+.shvili{
+    margin-top: 120px;
+    width: 466px;
+    height: 420px;
+}
+.shvili h2{
+    color: #000;
+    font-size: 60px;
+    font-weight: bold;
+}
+.shvili p{
+    margin-top: 36px;
+color:#777776;
+font-size: 20px; 
+
+}
+.surati{
+width: 870px;
+height: 724px;
+}
+ .surati img{
+    width: 100%;
+}
+.getstarted{
+    width: 180px;
+    height: 62px;
+    background-color: #FDC72D;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+}
+.getstarted b{
+    color: #000;
+    font-size: 20px;
+} 
+/*------------------ABOUT US GVERDI-------------------*/
+
+.charchoaboutus{
+    width: 1286px;
+    height: 506px;
+    display: flex;
+    margin-left: 78px;
+    margin-top: 20px;
+}
+.surati1{
+ width: 676px;
+ height: 506px;
+ overflow: hidden;   
+}
+.text1{
+    width: 512px;
+    height: 272px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.text1 h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+.text1 p{
+    margin-top: 32px;
+    color: #777776;
+    font-size: 20px;
+
+}
+
+/*------------------------------qvedamxareaboutus------------------------*/
+
+.qvedamxare{
+    width: 1244px;
+    height: 492px;
+    margin-top: 215px;
+    margin-left: 96px;
+    display: flex;
+}
+.qvedamxaretext{
+width: 502px;
+height: 288px;
+margin-top: 120px;
+}
+.qvedamxaretext h2{
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+}
+.qvedamxaretext p{
+    margin-top: 44px;
+    font-size: 20px;
+   color: #777776; 
+}
+.qvedamxareimg{
+    width: 745px;
+    height: 492px;
+}
+/*-----------------------service------------------*/
+
+.servicesatauri{
+    width: 380px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.servicesatauri h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+}
+.offer{
+    margin-left: 140px;
+}
+.didicharcho{
+    width:1332px;
+    height: 382px;
+    margin-top: 84px;
+    margin-left: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pataracharcho{
+    width: 380px;
+    height: 380px;
+    border: 1px solid; color: #302302;
+    border-radius: 20px;  
+}
+
+.pataracharcho h2{
+    width: 180px;
+    color: #000;
+    font-weight: bold;
+    margin: 35px 114px 0 116px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+.pataracharchofoto{
+    width: 202px;
+    height: 122px;
+    margin-top: 34px;
+    margin-left: 90px;
+}
+
+.pataracharchotext{
+    width: 236px;
+    height: 46px;
+    color: #777776;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 72px;
+}
+
+.learnmore{
+    margin-top: 25px;
+    margin-left: 150px;
+}
+.learnmore p{
+    font-weight: bold;
+    font-size: 15px;
+}
+.servicebolocharcho{
+    width: 1248px;
+    height: 498px;
+    display: flex;
+    margin-top: 158px;
+    margin-left: 86px;
+}
+.bolocharchosurati{
+    width: 544px;
+    height: 498px;
+}
+.bolocharchotext{
+    width: 510px;
+    height: 376px;
+    margin-left: 195px;
+    margin-top: 20px;
+}
+.bolocharchotext h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+}
+.bolocharchotext p{
+color: #777776;
+font-size: 20px;
+margin-top: 50px;
+}
+.appstore{
+    width: 465px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.appstoreformebi{
+    width: 204px;
+    height: 60px;
+    background-color: #FDC72D;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;  
+}
+
+.appstoreformebi img{
+    margin-left: 34px;
+}
+.appstoreformebi p{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;  
+    margin-top: 20px;
+    margin-left: 14px;
+}
+.appstoreformebi1{
+    width: 220px;
+    height: 60px;
+    background-color: #FDC72D;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+}
+.appstoreformebi1 img{
+    margin-left: 34px;
+}
+.appstoreformebi1 p{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;  
+    margin-top: 20px;
+    margin-left: 14px;
+}
+/* ---------------------Contact Menu--------------------*/
+.contactmain{
+    display: flex;
+    align-items: center;
+}
+
+.contactdasawyisi{
+    width: 456px;
+    height: 240px;
+    margin-top: 140px;
+    margin-left: 80px;
+}
+.contactdasawyisi h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+}
+.contactdasawyisi p{
+    color: #777776;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.telefoni{
+    width: 280px;
+    height: 146px;
+    
+    margin-top: 140px;
+    margin-left: 114px;
+    
+}
+.telefonibold{
+    
+    display: flex;
+    gap: 5px;
+}
+.telefonibold p{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+.telefoniboldgia{
+    color: #777776;
+    font-size: 20px;
+    margin-left: 6px;
+}
+.telefoniflex{
+    display: flex;
+}
+.contactus{
+    width: 180px;
+    height: 60px;
+    background-color: #FDC72D;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+.contactus p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.contactfooter{
+    width: 1440px;
+    height: 450px;
+    background-color: #FEE395;
+    padding: 94px;
+    display: flex;
+
+}
+.deliveryfooter{
+    width: 184px;
+    height: 98px;
+}
+.deliveryfooter h2{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.deliveryfooter p{
+    font-size: 15px;
+    color: #777776;
+    margin-top: 22px;
+
+}
+.ourservicefooter{
+    width: 128px;
+    height: 164px;
+    margin-left: 86px;
+}
+.ourservicefooter h2{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ourservicefooter p{
+    font-size: 15px;
+    color: #777776;
+    margin-top: 22px;
+}
+.Ourcompanyfooter{
+    width: 144px;
+    height: 134px;
+    margin-left: 110px;
+}
+.Ourcompanyfooter h2{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Ourcompanyfooter p{
+    font-size: 15px;
+    color: #777776;
+    margin-top: 22px;
+}
+.communityfooter{
+    width: 122px;
+    height: 134px;
+    margin-left: 76px;
+}
+.communityfooter h2{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.communityfooter p{
+    font-size: 15px;
+    color: #777776;
+    margin-top: 22px;
+}
+.logoebifooter{
+    width: 160px;
+    height: 28px;
+    justify-content: space-between;
+    margin-left: 112px;
+    display: flex;
+    margin-top: 16px;
+}
+.facebookfooter{
+    width: 28px;
+    height: 28px;
+}
+.twitterfooter{
+    width: 28px;
+    height: 28px;
+}
+.instagramfooter{
+    width: 28px;
+    height: 28px;
+}
